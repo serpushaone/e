@@ -2,7 +2,7 @@ var config = {
 	width: 1280,
 	height: 720,
 	backgroundColor: 0x000000,
-	scene: [SceneMenu, SceneGame, SceneSettings],
+	scene: [SceneMenu, SceneGame, SceneGameOutside, SceneSettings, SceneSnakeGame],
 	plugins: {
         global:[
         	{
